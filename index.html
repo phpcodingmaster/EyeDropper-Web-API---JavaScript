@@ -6,22 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EyeDropper API - JavaScript</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="box">
+<body class="bg-black">
+
+    <div class="container mx-auto mt-20">
   
-        <div class="box-inner">
-            <div class="container">
-          <button id="open">
-          Open Colorpicker
-          </button>
-        </div>
-      
-        <div class="hexcontainer">
-            <p>HEX CODE: 
-            <span id="hexcode"></span>
-            </p>
-        </div>
+        <div class="bg-white px-20 py-8 text-white rounded grid">
+            <button id="open" class="bg-red-700">
+                Open Colorpicker
+            </button>
+            <div class="bg-white px-10 py-4 text-black ">
+                <p class="font-bold">HEX CODE:
+                    <span id="hexcode"></span>
+                </p>
+            </div>
         </div>
 
       </div>
